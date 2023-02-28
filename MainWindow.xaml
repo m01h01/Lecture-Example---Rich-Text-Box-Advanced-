@@ -11,8 +11,8 @@
 
         </RichTextBox>
         <Canvas Background="#7F6985A0" Margin="34,32,400,32">
-            <Label Content="Header" Canvas.Left="11" Canvas.Top="10" HorizontalAlignment="Left" VerticalAlignment="Center"/>
-            <TextBox x:Name ="tbHeader" Canvas.Left ="13" TextWrapping="Wrap" Text="" Canvas.Top="36" Width="277" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <Label Content="Header" Canvas.Left="11" HorizontalAlignment="Center" VerticalAlignment="Top" Canvas.Top="-1"/>
+            <TextBox x:Name ="tbHeader" Canvas.Left ="13" TextWrapping="Wrap" Text="" Canvas.Top="24" Width="328" HorizontalAlignment="Center" VerticalAlignment="Top" Height="30"/>
             <Label Content="Body" Canvas.Left="14" Canvas.Top="59" HorizontalAlignment="Left" VerticalAlignment="Center"/>
             <RichTextBox  Height="198" Width="331" HorizontalAlignment="Left" Canvas.Top="85" VerticalAlignment="Center" Canvas.Left="10">
                 <FlowDocument>
